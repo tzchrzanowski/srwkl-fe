@@ -1,0 +1,33 @@
+.home-wrapper {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    color: black;
+    font-size: calc(10px + 2vmin);
+    min-height: 90vh;
+}
+
+.App-logo {
+    position: absolute;
+    margin-top: 100px;
+    height: 50vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo-caption {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
