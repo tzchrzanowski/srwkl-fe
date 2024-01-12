@@ -14,6 +14,6 @@ code {
 
 .App {
   text-align: center;
-  background-image: linear-gradient(rgba(255, 200, 200, 0.6), rgba(200, 200 ,200, 0.7)), url("./res/bw_marble.jpg");
+  background-image: linear-gradient(rgba(255, 200, 150, 0.6), rgba(200, 200 ,200, 0.7)), url("./res/bw_marble.jpg");
   background-size: cover;
 }

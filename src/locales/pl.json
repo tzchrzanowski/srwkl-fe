@@ -1,0 +1,14 @@
+{
+  "navigation": {
+    "home": "GŁÓWNA",
+    "idea": "IDEA",
+    "news": "AKTUALNOŚCI",
+    "album": "ALBUM",
+    "history": "HISTORIA",
+    "publications": "PUBLIKACJE",
+    "families": "RODY",
+    "board": "ZARZĄD",
+    "cooperation": "WSPÓŁPRACA",
+    "contact": "KONTAKT"
+  }
+}

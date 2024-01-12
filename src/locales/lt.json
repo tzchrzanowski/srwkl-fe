@@ -1,0 +1,14 @@
+{
+  "navigation": {
+    "home": "MAIN",
+    "idea": "IDEA",
+    "news": "NEWS",
+    "album": "ALBUM",
+    "history": "HISTORY",
+    "publications": "PUBLICATIONS",
+    "families": "FAMILIES",
+    "board": "BOARD",
+    "cooperation": "COOPERATION",
+    "contact": "CONTACT"
+  }
+}
