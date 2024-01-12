@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import i18n from '../../i18n';
 import { useTranslation } from 'react-i18next';
 import './TopNavigation.css';
 import logoSRWKL from "../../res/logo_srwkl.png";
@@ -23,8 +24,11 @@ export function TopNavigation() {
         {route: '/board', caption: t('navigation.board'), public: true},
         {route: '/cooperation', caption: t('navigation.cooperation'), public: true},
         {route: '/contact', caption: t('navigation.contact'), public: true},
-
     ];
+
+    const changeLanguage = (lng: string) => {
+        i18n.changeLanguage(lng);
+    }
 
     return (
         <div className={"nav-container"}>
@@ -41,6 +45,18 @@ export function TopNavigation() {
                         </div>
                     </div>
                 })}
+            </div>
+            <div className={"buttons-container"}>
+                <div className={"top-nav-button fl-end"} onClick={()=> changeLanguage('en')}>
+                    <div className={"button-box button-box-top"}>
+                        <span className={"top-nav-btn-caption"}>EN</span>
+                    </div>
+                </div>
+                <div className={"top-nav-button"} onClick={()=> changeLanguage('pl')}>
+                    <div className={"button-box button-box-top"}>
+                        <span className={"top-nav-btn-caption"}>PL</span>
+                    </div>
+                </div>
             </div>
         </div>
     )

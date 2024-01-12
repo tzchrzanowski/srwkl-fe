@@ -18,3 +18,7 @@
   color: #61dafb;
 }
 
+.fl-end {
+  /*justify-self: flex-end;*/
+  margin-left: auto;
+}
