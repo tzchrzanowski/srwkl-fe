@@ -1,8 +1,8 @@
 import React from 'react';
 import './Home.css';
-import logoSRWKL from "../../../res/logo_crests_only.png";
-import logoCaption from "../../../res/logo_caption_only.png";
-import TopNavigation from "../../top-navigation/TopNavigation";
+import logoSRWKL from "res/logo_crests_only.png";
+import logoCaption from "res/logo_caption_only.png";
+import TopNavigation from "components/top-navigation/TopNavigation";
 
 export function Home() {
     return (

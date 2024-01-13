@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import i18n from '../../i18n';
+import i18n from 'i18n';
 import { useTranslation } from 'react-i18next';
 import './TopNavigation.css';
-import logoSRWKL from "../../res/logo_srwkl.png";
+import logoSRWKL from "res/logo_srwkl.png";
 
 interface ButtonsInterface {
     route: string,
