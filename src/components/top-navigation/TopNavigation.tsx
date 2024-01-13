@@ -47,14 +47,19 @@ export function TopNavigation() {
                 })}
             </div>
             <div className={"buttons-container"}>
-                <div className={"top-nav-button fl-end"} onClick={()=> changeLanguage('en')}>
-                    <div className={"button-box button-box-top"}>
-                        <span className={"top-nav-btn-caption"}>EN</span>
-                    </div>
-                </div>
-                <div className={"top-nav-button"} onClick={()=> changeLanguage('pl')}>
+                <div className={"top-nav-lng-button"} onClick={()=> changeLanguage('pl')}>
                     <div className={"button-box button-box-top"}>
                         <span className={"top-nav-btn-caption"}>PL</span>
+                    </div>
+                </div>
+                <div className={"top-nav-lng-button"} onClick={()=> changeLanguage('lt')}>
+                    <div className={"button-box button-box-top"}>
+                        <span className={"top-nav-btn-caption"}>LT</span>
+                    </div>
+                </div>
+                <div className={"top-nav-lng-button fl-end"} onClick={()=> changeLanguage('en')}>
+                    <div className={"button-box button-box-top"}>
+                        <span className={"top-nav-btn-caption"}>EN</span>
                     </div>
                 </div>
             </div>
