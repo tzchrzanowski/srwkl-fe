@@ -3,14 +3,17 @@ import i18n from 'i18n';
 import { useTranslation } from 'react-i18next';
 import './TopNavigation.css';
 import logoSRWKL from "res/logo_srwkl.png";
+import HamburgerIcon from 'res/icons/hamburger.svg';
+import SideNavigation from "../side-navigation/SideNavigation";
 
-interface ButtonsInterface {
+export interface ButtonsInterface {
     route: string,
     caption: string,
     public: boolean,
 }
 
 export function TopNavigation() {
+    const [isSideNavOpen, setSideNavOpen] = React.useState(false);
     const { t } = useTranslation();
 
     const buttons: ButtonsInterface[] = [
@@ -30,40 +33,59 @@ export function TopNavigation() {
         i18n.changeLanguage(lng);
     }
 
+    /*
+    * opens and closes left side menu that replaces top-navigation menu on small screen device:
+    * */
+    const handleLeftSideMenu = ()=> {
+        setSideNavOpen(prevState => !prevState);
+    }
+
     return (
-        <div className={"nav-container"}>
-            <div className={"buttons-container"}>
-                <div className={"button-container"}>
-                    <img src={logoSRWKL} className="top-nav-logo" alt="logo" />
-                </div>
-                {buttons && buttons.map((button, id) => {
-                    return <div className={"top-nav-button"} key={id}>
-                        <div className={"button-box button-box-top"}>
+        <>
+            {/* right-side menu: */}
+            <SideNavigation
+                isOpen={isSideNavOpen}
+                setSideNavigationOpenCallback={setSideNavOpen}
+                buttons={buttons}
+            />
+            {/* top navigation menu: */}
+            <div className={"nav-container"}>
+                <div className={"buttons-container"}>
+                    <div className={"button-container ml-4"}>
+                        <img src={logoSRWKL} className="top-nav-logo" alt="logo" />
+                    </div>
+                    <div className={"button-container hamburger-container ml-6"} onClick={handleLeftSideMenu} >
+                        <img className={"hamburger-menu-icon"} src={HamburgerIcon} alt={"menu"}/>
+                    </div>
+                    {buttons && buttons.map((button, id) => {
+                        return <div className={"top-nav-button"} key={id}>
+                            <div className={"button-box button-box-top"}>
                             <span className={"top-nav-btn-caption"}>
                                 {button.caption}
                             </span>
+                            </div>
+                        </div>
+                    })}
+                </div>
+                <div className={"buttons-container"}>
+                    <div className={"top-nav-lng-button"} onClick={()=> changeLanguage('pl')}>
+                        <div className={"button-box button-box-top"}>
+                            <span className={"top-nav-btn-caption"}>PL</span>
                         </div>
                     </div>
-                })}
-            </div>
-            <div className={"buttons-container"}>
-                <div className={"top-nav-lng-button"} onClick={()=> changeLanguage('pl')}>
-                    <div className={"button-box button-box-top"}>
-                        <span className={"top-nav-btn-caption"}>PL</span>
+                    <div className={"top-nav-lng-button"} onClick={()=> changeLanguage('lt')}>
+                        <div className={"button-box button-box-top"}>
+                            <span className={"top-nav-btn-caption"}>LT</span>
+                        </div>
                     </div>
-                </div>
-                <div className={"top-nav-lng-button"} onClick={()=> changeLanguage('lt')}>
-                    <div className={"button-box button-box-top"}>
-                        <span className={"top-nav-btn-caption"}>LT</span>
-                    </div>
-                </div>
-                <div className={"top-nav-lng-button fl-end"} onClick={()=> changeLanguage('en')}>
-                    <div className={"button-box button-box-top"}>
-                        <span className={"top-nav-btn-caption"}>EN</span>
+                    <div className={"top-nav-lng-button fl-end"} onClick={()=> changeLanguage('en')}>
+                        <div className={"button-box button-box-top"}>
+                            <span className={"top-nav-btn-caption"}>EN</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
