@@ -13,5 +13,10 @@
     "board": "BOARD",
     "cooperation": "COOPERATION",
     "contact": "CONTACT"
+  },
+  "footer": {
+    "copyright": "© Copyright by SRWKL 2024",
+    "statute-pl": "Statute PL",
+    "statute-lt": "Statute LT"
   }
 }

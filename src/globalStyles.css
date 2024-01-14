@@ -7,6 +7,10 @@
 .mt-10vh { margin-top: 10vh; }
 
 .mb-1 { margin-bottom: 10px; }
+.mb-2 { margin-bottom: 15px;}
+.mb-3 { margin-bottom: 20px;}
+.mb-4 { margin-bottom: 25px;}
+.mb-5 { margin-bottom: 30px;}
 
 .ml-1 { margin-left: 10px; }
 .ml-2 { margin-left: 15px;}
@@ -17,3 +21,18 @@
 .ml-7 { margin-left: 40px;}
 
 .mr-1 { margin-right: 10px; }
+.mr-2 { margin-right: 15px;}
+.mr-3 { margin-right: 20px;}
+.mr-4 { margin-right: 25px;}
+.mr-5 { margin-right: 30px;}
+.mr-6 { margin-right: 35px;}
+.mr-7 { margin-right: 40px;}
+
+.fb { display: flex; }
+.fb-row { flex-direction: row; }
+.fb-col { flex-direction: column }
+.jc-center { justify-content: center }
+.jc-space-around { justify-content: space-around }
+.jc-space-between { justify-content: space-between }
+.jc-flex-end { justify-content: flex-end }
+.js-flex-start { justify-content: flex-start }

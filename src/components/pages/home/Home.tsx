@@ -4,11 +4,12 @@ import logoSRWKL from "res/logo_crests_only.png";
 import logoCaption from "res/logo_caption_only.png";
 import TopNavigation from "components/top-navigation/TopNavigation";
 import {useTranslation} from "react-i18next";
+import Footer from "components/footer/Footer";
 
 export function Home() {
     const { t } = useTranslation();
 
-    return (
+    return ( <>
         <div className={"home-wrapper App"} >
             <TopNavigation />
             <img src={logoSRWKL} className="App-logo" alt="logo" />
@@ -17,6 +18,8 @@ export function Home() {
                 {t('common.title')}
             </p>
         </div>
+        <Footer />
+        </>
     )
 }
 
