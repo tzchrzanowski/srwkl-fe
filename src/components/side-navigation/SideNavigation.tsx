@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import './SideNavigation.css';
 import {ButtonsInterface} from "../top-navigation/TopNavigation";
+import { Link } from "react-router-dom";
 
 interface SideNavigationProps {
     isOpen?: boolean,
@@ -15,9 +16,9 @@ export function SideNavigation({isOpen, setSideNavigationOpenCallback, buttons}:
             onMouseLeave={()=> setSideNavigationOpenCallback(false)}
         >
             {buttons && buttons.map((page, id) => {
-                return <div className={"categoryButton"} onClick={()=>{}}>
+                return <Link className={"categoryButton"} to={page.route} onClick={()=>{}}>
                     <span className={"categoryButtonCaption"}>{page.caption}</span>
-                </div>
+                </Link>
             })}
         </div>
     );

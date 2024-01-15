@@ -5,6 +5,7 @@ import './TopNavigation.css';
 import logoSRWKL from "res/logo_srwkl.png";
 import HamburgerIcon from 'res/icons/hamburger.svg';
 import SideNavigation from "../side-navigation/SideNavigation";
+import { Link } from "react-router-dom";
 
 export interface ButtonsInterface {
     route: string,
@@ -58,13 +59,13 @@ export function TopNavigation() {
                         <img className={"hamburger-menu-icon"} src={HamburgerIcon} alt={"menu"}/>
                     </div>
                     {buttons && buttons.map((button, id) => {
-                        return <div className={"top-nav-button"} key={id}>
+                        return <Link className={"top-nav-button"} to={button.route} key={id}>
                             <div className={"button-box button-box-top"}>
                             <span className={"top-nav-btn-caption"}>
                                 {button.caption}
                             </span>
                             </div>
-                        </div>
+                        </Link>
                     })}
                 </div>
                 <div className={"buttons-container"}>
@@ -79,7 +80,7 @@ export function TopNavigation() {
                         </div>
                     </div>
                     <div className={"top-nav-lng-button fl-end"} onClick={()=> changeLanguage('en')}>
-                        <div className={"button-box button-box-top"}>
+                        <div className={"button-box button-box-top mr-3"}>
                             <span className={"top-nav-btn-caption"}>EN</span>
                         </div>
                     </div>

@@ -28,6 +28,7 @@
 .mr-6 { margin-right: 35px;}
 .mr-7 { margin-right: 40px;}
 
+/* flexbox */
 .fb { display: flex; }
 .fb-row { flex-direction: row; }
 .fb-col { flex-direction: column }
@@ -36,3 +37,13 @@
 .jc-space-between { justify-content: space-between }
 .jc-flex-end { justify-content: flex-end }
 .js-flex-start { justify-content: flex-start }
+.ai-center { align-items: center; }
+
+/* height */
+.vh90 { height: 90vh; }
+.w100 { width: 100%; }
+.h100 { height: 100%; }
+.h-10p { height: 10px; }
+.h-20p { height: 20px; }
+.h-30p { height: 30px; }
+.h-40p { height: 40px; }

@@ -10,7 +10,7 @@ export function Home() {
     const { t } = useTranslation();
 
     return ( <>
-        <div className={"home-wrapper App"} >
+        <div className={"page-content-wrapper App"} >
             <TopNavigation />
             <img src={logoSRWKL} className="App-logo" alt="logo" />
             <img src={logoCaption} className="App-logo App-logo-caption" alt="logo" />

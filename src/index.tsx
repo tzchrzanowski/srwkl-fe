@@ -7,12 +7,17 @@ import './globalStyles.css';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Home from './components/pages/home/Home';
+import Contact from './components/pages/contact/Contact';
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Home />
     },
+    {
+        path: "/contact",
+        element: <Contact />
+    }
 ]);
 
 const root = ReactDOM.createRoot(
