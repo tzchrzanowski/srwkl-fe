@@ -18,5 +18,17 @@
     "copyright": "© Copyright by SRWKL 2024",
     "statute-pl": "Statut PL",
     "statute-lt": "Statut LT"
+  },
+  "header": {
+    "s": "S",
+    "stowarzyszenie": "TOWARZYSZENIE",
+    "r": "R",
+    "rodow": "ODÓW",
+    "wielkiego": "IELKIEGO",
+    "w": "W",
+    "ksiestwa": "SIĘSTWA",
+    "k": "K",
+    "litewskiego": "ITEWSKIEGO",
+    "l": "L"
   }
 }

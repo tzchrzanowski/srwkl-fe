@@ -31,15 +31,17 @@
 /* flexbox */
 .fb { display: flex; }
 .fb-row { flex-direction: row; }
-.fb-col { flex-direction: column }
-.jc-center { justify-content: center }
-.jc-space-around { justify-content: space-around }
-.jc-space-between { justify-content: space-between }
-.jc-flex-end { justify-content: flex-end }
-.js-flex-start { justify-content: flex-start }
+.fb-col { flex-direction: column; }
+.jc-center { justify-content: center; }
+.jc-space-around { justify-content: space-around; }
+.jc-space-between { justify-content: space-between; }
+.jc-flex-start { justify-content: flex-start; }
+.jc-flex-end { justify-content: flex-end; }
+.js-flex-start { justify-content: flex-start; }
 .ai-center { align-items: center; }
 
 /* height */
+.mh90v { min-height: 90vh; }
 .vh90 { height: 90vh; }
 .w100 { width: 100%; }
 .h100 { height: 100%; }
@@ -50,3 +52,11 @@
 
 /* hover */
 .cursor:hover { cursor: pointer}
+
+/* font */
+.font-xxl { font-size: xx-large; }
+.font-xl { font-size: x-large; }
+.font-l { font-size: large; }
+.font-m { font-size: medium; }
+.font-s { font-size: small; }
+
