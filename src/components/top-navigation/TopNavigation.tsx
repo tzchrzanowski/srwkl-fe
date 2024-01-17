@@ -55,7 +55,7 @@ export function TopNavigation() {
                     <div className={"button-container ml-4"}>
                         <img src={logoSRWKL} className="top-nav-logo" alt="logo" />
                     </div>
-                    <div className={"button-container hamburger-container ml-6"} onClick={handleLeftSideMenu} >
+                    <div className={"button-container hamburger-container ml-6 cursor"} onClick={handleLeftSideMenu} >
                         <img className={"hamburger-menu-icon"} src={HamburgerIcon} alt={"menu"}/>
                     </div>
                     {buttons && buttons.map((button, id) => {

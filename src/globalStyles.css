@@ -47,3 +47,6 @@
 .h-20p { height: 20px; }
 .h-30p { height: 30px; }
 .h-40p { height: 40px; }
+
+/* hover */
+.cursor:hover { cursor: pointer}
