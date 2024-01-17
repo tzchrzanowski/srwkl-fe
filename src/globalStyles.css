@@ -39,6 +39,7 @@
 .jc-flex-end { justify-content: flex-end; }
 .js-flex-start { justify-content: flex-start; }
 .ai-center { align-items: center; }
+.ai-flex-start { align-items: flex-start; }
 
 /* height */
 .mh90v { min-height: 90vh; }
@@ -61,3 +62,11 @@
 .font-s { font-size: small; }
 .font-b { font-weight: bold; }
 
+/* width */
+.w100 { width: 100px; }
+.w200 { width: 200px; }
+.w300 { width: 300px; }
+.w400 { width: 400px; }
+.w500 { width: 500px; }
+.w600 { width: 600px; }
+.w100vw { width: 100vw; }
