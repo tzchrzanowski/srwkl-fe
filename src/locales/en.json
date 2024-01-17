@@ -20,10 +20,28 @@
     "statute-lt": "Statute LT"
   },
   "header": {
-    "stowarzyszenie": "STOWARZYSZENIE",
-    "rodow": "RODÓW",
-    "wielkiego": "WIELKIEGO",
-    "ksiestwa": "KSIĘSTWA",
-    "litewskiego": "LITEWSKIEGO"
+    "s": "S",
+    "stowarzyszenie": "TOWARZYSZENIE",
+    "r": "R",
+    "rodow": "ODÓW",
+    "wielkiego": "IELKIEGO",
+    "w": "W",
+    "ksiestwa": "SIĘSTWA",
+    "k": "K",
+    "litewskiego": "ITEWSKIEGO",
+    "l": "L"
+  },
+  "contact" : {
+    "contact": "KONTAKT ZE SRWKL",
+    "mail-address": "adres korespondencyjny:",
+    "address-line1": "ul. Bronikowskiego 2a lok.34",
+    "post-code": "02-796 Warszawa",
+    "phone": "tel: ",
+    "email": "email: ",
+    "regon": "REGON: ",
+    "NIP": "NIP: ",
+    "public-number-line1": "Nr wpisu w Ewidencji Stowarzyszeń Zwykłych",
+    "public-number-line2": "m.st. Warszawy: 733",
+    "bank-acc": "konto bankowe:"
   }
 }
