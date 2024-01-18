@@ -9,11 +9,11 @@ export function Header() {
     const { t } = useTranslation();
 
     return (
-        <div className={"header-wrapper fb fb-row jc-center ai-center mt-3"}>
+        <div className={"header-wrapper fb fb-responsive ai-center mt-3 jc-center-responsive"}>
             {/*<img src={Logo} alt={"logo"} height={"250"} />*/}
-            <img src={logoSRWKL} className="header-logo" alt="logo" height={"250"}/>
-            <img src={logoCaption} className="header-logo header-logo-caption" alt="logo" height={"250"} />
-            <div className={"w200"}></div>
+                <img src={logoSRWKL} className="header-logo" alt="logo" height={"250"}/>
+                <img src={logoCaption} className="header-logo header-logo-caption" alt="logo" height={"250"} />
+            <div className={"w200 logo-placeholder"}></div>
             {/*<div className={"w500 fb fb-col ai-flex-start jc-flex-start ml-7"}>*/}
             <div className={"fb fb-col ai-flex-start jc-flex-start ml-7"}>
                 <div>

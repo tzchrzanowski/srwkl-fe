@@ -1,12 +1,36 @@
 .header-wrapper {
-    height: 330px;
+    min-height: 250px;
 }
 
 .header-logo {
     position: absolute;
     pointer-events: none;
-    margin-right: 250px;
 }
+
+@media (min-width: 720px) {
+    .fb-responsive {
+        flex-direction: row;
+    }
+    .logo-placeholder {
+        height: 200px;
+    }
+    .header-logo {
+        margin-right: 250px;
+    }
+    .jc-center-responsive {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 720px) {
+    .fb-responsive {
+        flex-direction: column;
+    }
+    .logo-placeholder {
+        height: 260px;
+    }
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
     .header-logo-caption {

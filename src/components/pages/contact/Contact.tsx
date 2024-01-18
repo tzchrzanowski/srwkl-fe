@@ -14,7 +14,7 @@ export function Contact() {
             <TopNavigation />
             <div className={"fb fb-col mb-4 mh90v"}>
                 <Header />
-                <div className={"fb fb-row"}>
+                <div className={"fb fb-responsive"}>
                     <div className={"fb fb-col jc-center ml-1 mr-1 mt-4 mb-4"}>
                         <span className={"font-l font-b"}>{t("contact.contact")}</span>
                         <span className={"font-m mt-4"}>{t("contact.mail-address")}</span>
