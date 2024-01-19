@@ -17,7 +17,9 @@
   "footer": {
     "copyright": "© Copyright by SRWKL 2024",
     "statute-pl": "Statute PL",
-    "statute-lt": "Statute LT"
+    "statute-lt": "Statute LT",
+    "questionnaire-pl": "Ankieta PL",
+    "questionnaire-lt": "Ankieta LT"
   },
   "header": {
     "s": "S",
@@ -43,5 +45,18 @@
     "public-number-line1": "Entry number in the Registry of Ordinary Associations",
     "public-number-line2": "in the city of Warsaw: 733",
     "bank-acc": "Bank account number:"
+  },
+  "idea": {
+    "header": "IDEA POWSTANIA SRWKL",
+    "paragraph_1": "Stowarzyszenie Rodów Wielkiego Księstwa Litewskiego jest organizacją społeczno-kulturalną zrzeszającą członków rodów pochodzących z terenu Wielkiego Księstwa Litewskiego, w tym potomków szlachty dawnej Rzeczypospolitej Obojga (Wielu) Narodów.",
+    "paragraph_2" : "W zamierzeniu SRWKL miało być kontynuacją działającego przed II wojną światową stowarzyszenia rodowego Dowgiałłów oraz Dowgiałłów-Zawiszów i ich rodzin, reaktywacja którego była niespełnionym marzeniem śp. prof. Jana Pawła Dowgiałło, ambasadora RP w latach 1990-1993.",
+    "bullet-points-header" : "Zgodnie z Regulaminem, celami SRWKL są:",
+    "point-1": "1) odrodzenie wspólnoty kulturowej oraz integracja rodów wywodzących swe korzenie z Wielkiego Księstwa Litewskiego ze szczególnym uwzględnieniem Wileńszczyzny, Kowieńszczyzny, Laudy, Żmudzi oraz historycznych Inflant Polskich a także terenów obecnej Republiki Białoruskiej;",
+    "point-2": "2) propagowanie ziemiańskich tradycji w oparciu o uniwersalne wartości chrześcijańskie;",
+    "point-3": "3) działalność wspomagająca rozwój wspólnot i społeczności lokalnych;",
+    "point-4": "4) tworzenie więzi społecznej, integrowanie rodów;",
+    "point-5": "5) dbanie o pozytywny wizerunek rodów wywodzących się z Wielkiego Księstwa Litewskiego.",
+    "last-paragraph": "Członkiem SRWKL może zostać osoba fizyczna, posiadająca pełną zdolność do czynności prawnych i niepozbawiona praw publicznych, będąca obywatelem polskim lub cudzoziemcem, która uzyskała pisemne rekomendacje popierające uzyskanie członkostwa udzielone przez co najmniej dwóch członków Stowarzyszenia",
+    "a-politic": "SRWKL nie jest związane z żadną opcją polityczną."
   }
 }

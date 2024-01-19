@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Home from './components/pages/home/Home';
 import Contact from './components/pages/contact/Contact';
+import Idea from './components/pages/idea/Idea';
 
 const router = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
     {
         path: "/contact",
         element: <Contact />
+    },
+    {
+        path: "/idea",
+        element: <Idea />
     }
 ]);
 
