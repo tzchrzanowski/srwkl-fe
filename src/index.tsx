@@ -9,6 +9,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Home from './components/pages/home/Home';
 import Contact from './components/pages/contact/Contact';
 import Idea from './components/pages/idea/Idea';
+import Cooperation from "./components/pages/cooperation/Cooperation";
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     {
         path: "/idea",
         element: <Idea />
+    },
+    {
+        path: "/cooperation",
+        element: <Cooperation />
     }
 ]);
 
