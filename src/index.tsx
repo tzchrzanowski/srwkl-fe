@@ -10,6 +10,7 @@ import Home from './components/pages/home/Home';
 import Contact from './components/pages/contact/Contact';
 import Idea from './components/pages/idea/Idea';
 import Cooperation from "./components/pages/cooperation/Cooperation";
+import Board from "./components/pages/board/Board";
 
 const router = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
     {
         path: "/cooperation",
         element: <Cooperation />
+    },
+    {
+        path: "/board",
+        element: <Board />
     }
 ]);
 
