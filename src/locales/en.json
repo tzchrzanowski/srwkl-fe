@@ -58,5 +58,13 @@
     "point-5": "5) dbanie o pozytywny wizerunek rodów wywodzących się z Wielkiego Księstwa Litewskiego.",
     "last-paragraph": "Członkiem SRWKL może zostać osoba fizyczna, posiadająca pełną zdolność do czynności prawnych i niepozbawiona praw publicznych, będąca obywatelem polskim lub cudzoziemcem, która uzyskała pisemne rekomendacje popierające uzyskanie członkostwa udzielone przez co najmniej dwóch członków Stowarzyszenia",
     "a-politic": "SRWKL nie jest związane z żadną opcją polityczną."
+  },
+  "cooperation" : {
+    "header" : "WSPÓŁPRACA ZE SRWKL",
+    "embassy" : "Ambasada Litwy w Polsce",
+    "kossakowski" : "Fundacja Kossakowskiego",
+    "ziemianie" : "Polskie Towarzystwo Ziemiańskie",
+    "grodzienscy" : "Stowarzyszenie Rodów Grodzieńskich",
+    "polsko-saska" : "Towarzystwo Przyjaźni Polsko-Saskiej"
   }
 }
