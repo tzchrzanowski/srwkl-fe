@@ -66,5 +66,10 @@
     "ziemianie" : "Polskie Towarzystwo Ziemiańskie",
     "grodzienscy" : "Stowarzyszenie Rodów Grodzieńskich",
     "polsko-saska" : "Towarzystwo Przyjaźni Polsko-Saskiej"
+  },
+  "board": {
+    "header" : "ZARZĄD SRWKL",
+    "president" : "- Prezes Zarządu",
+    "board-member" : "- Członek Zarządu"
   }
 }
