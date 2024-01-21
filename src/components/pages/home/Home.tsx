@@ -14,7 +14,7 @@ export function Home() {
             <TopNavigation />
             <img src={logoSRWKL} className="App-logo" alt="logo" />
             <img src={logoCaption} className="App-logo App-logo-caption" alt="logo" />
-            <p>
+            <p className={"font-xxl"}>
                 {t('common.title')}
             </p>
         </div>
