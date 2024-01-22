@@ -71,5 +71,8 @@
     "header" : "ZARZĄD SRWKL",
     "president" : "- Prezes Zarządu",
     "board-member" : "- Członek Zarządu"
+  },
+  "families" : {
+    "header" : "RODY W SRWKL"
   }
 }

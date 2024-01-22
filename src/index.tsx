@@ -11,6 +11,7 @@ import Contact from './components/pages/contact/Contact';
 import Idea from './components/pages/idea/Idea';
 import Cooperation from "./components/pages/cooperation/Cooperation";
 import Board from "./components/pages/board/Board";
+import Families from "./components/pages/families/Families";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
     {
         path: "/board",
         element: <Board />
+    },
+    {
+        path: "/families",
+        element: <Families />
     }
 ]);
 

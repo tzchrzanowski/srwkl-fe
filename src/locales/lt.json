@@ -71,5 +71,8 @@
     "header" : "BOARD of SRWKL",
     "chairman" : "- President of the board",
     "board-member" : "- Member of the board"
+  },
+  "families" : {
+    "header" : "FAMILIES IN SRWKL"
   }
 }
