@@ -74,5 +74,8 @@
   },
   "families" : {
     "header" : "FAMILIES IN SRWKL"
+  },
+  "news": {
+    "header": "NEWS"
   }
 }

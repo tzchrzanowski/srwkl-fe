@@ -12,6 +12,7 @@ import Idea from './components/pages/idea/Idea';
 import Cooperation from "./components/pages/cooperation/Cooperation";
 import Board from "./components/pages/board/Board";
 import Families from "./components/pages/families/Families";
+import News from "./components/pages/news/News";
 
 const router = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
     {
         path: "/families",
         element: <Families />
+    },
+    {
+        path: "/news",
+        element: <News />
     }
 ]);
 
