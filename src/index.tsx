@@ -13,6 +13,7 @@ import Cooperation from "./components/pages/cooperation/Cooperation";
 import Board from "./components/pages/board/Board";
 import Families from "./components/pages/families/Families";
 import News from "./components/pages/news/News";
+import History from "./components/pages/history/History";
 
 const router = createBrowserRouter([
     {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
     {
         path: "/news",
         element: <News />
+    },
+    {
+        path: "/history",
+        element: <History />
     }
 ]);
 
