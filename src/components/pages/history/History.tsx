@@ -21,11 +21,13 @@ export function History() {
                                 <div className={"fb fb-col mt-4"} key={id}>
                                     <span className={"font-b font-l"}>{el.header}</span>
                                     <span className={"font-m mt-2"}>{el.caption}</span>
-                                    {
-                                        el.imgs && el.imgs.map((img, id) => {
-                                            return <img className={"mt-2"} src={img} key={id}/>;
-                                        })
-                                    }
+                                    <div className={"fb fb-row"}>
+                                        {
+                                            el.imgs && el.imgs.map((img, id) => {
+                                                return <img className={"mt-2"} src={img} key={id}/>;
+                                            })
+                                        }
+                                    </div>
                                 </div>
                             );
                         })}
